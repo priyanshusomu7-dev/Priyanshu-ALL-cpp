@@ -13,5 +13,6 @@ because of issue in block scope and functional scope
 accountEmail ="priyashsa@gmail.com"
 accountPassword ="987654"
 accountCity = "Patna"
+accountState
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
