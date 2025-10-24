@@ -29,7 +29,8 @@ console.log(typeof BigInt)
 // REFRENCE (NON PRIMITIVE DATATYPES) :-
 // Objects 
 let myObj = {
-    name : "Priyanshu"
+    name : "Priyanshu",
+    age : 19
 }
 // Array =>
 const heroes = ["Shaktiman","Spiderman","Deadpool"];
@@ -38,4 +39,28 @@ const heroes = ["Shaktiman","Spiderman","Deadpool"];
 const myFunction = function(){
     console.log("Hey I'm learning JavaScript.");
 }
+
+// STack Memory (for Primitive DATATYPES)
+// Heap Memory  (for NON-Primitive DATATYPES)
+
+//Example of stack
+let myName = "Priyanshu"
+let anotherName = myName
+anotherName = "Somu"
+console.log(myName);
+console.log(anotherName);
+
+//Example of heap
+let userOne = {
+    email : "user@gmail.com",
+    upiId : "userone@ybl"
+
+}
+
+let userTwo = userOne
+userTwo.email = "userTwo@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
