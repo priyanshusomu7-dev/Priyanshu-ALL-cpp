@@ -9,7 +9,8 @@ let age = 20
 let isLoggedIn = false
 let state = "Bihar"
 
-// PRIMITIVE DATATYPES :-
+// PRIMITIVE DATATYPES :-       ***********
+
 // Boolean => true and false.
 // null => A special keyword denoting a null value. (Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.)
 // undefined =>A top-level property whose value is not defined.
@@ -26,7 +27,8 @@ console.log(typeof String)
 console.log(typeof Symbol)
 console.log(typeof BigInt)
 
-// REFRENCE (NON PRIMITIVE DATATYPES) :-
+// REFRENCE (NON PRIMITIVE DATATYPES) :-       **********
+
 // Objects 
 let myObj = {
     name : "Priyanshu",
@@ -40,8 +42,7 @@ const myFunction = function(){
     console.log("Hey I'm learning JavaScript.");
 }
 
-// STack Memory (for Primitive DATATYPES)
-// Heap Memory  (for NON-Primitive DATATYPES)
+// STack Memory (for Primitive DATATYPES).      *******
 
 //Example of stack
 let myName = "Priyanshu"
@@ -49,6 +50,8 @@ let anotherName = myName
 anotherName = "Somu"
 console.log(myName);
 console.log(anotherName);
+
+// Heap Memory  (for NON-Primitive DATATYPES)
 
 //Example of heap
 let userOne = {
